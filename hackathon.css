@@ -1,0 +1,126 @@
+@charset "utf-8";
+body
+{
+}
+.fsf-sidebar
+{
+  opacity: 1;
+        top:0px;
+        right:10px;
+        position:fixed;
+        display:inline;
+        width:325px;
+	color: #EEE;
+        background-color: rgba(1, 1, 1, 1);
+        z-index:11000;
+	font-weight:bold;
+	font-size:.8em;
+        height:100%;
+		font-family:Helvetica, Arial, sans-serif
+}
+.fsf-sidebar > *
+{		
+		z-index:20000;	
+}
+#fsflogo
+{
+		right:260px;
+		top: 10px;
+		position:fixed;
+}
+#fsftitle
+{
+		color: #EEE;
+		font-weight:bold;
+		font-size:1.6em;
+		right:100px;
+		top:17px;
+		position:fixed;	
+}
+.wrapper
+{
+		display:inline;
+		position:relative;
+		padding:15px;
+		right:20px;
+}
+div.folder2
+{	
+		position:fixed;
+		padding: 5px;
+		font-weight: bold;
+		right: 50px;
+		color: #EEE;		
+		background-color: rgba(0,0,0,.5);
+		z-index: 10000;
+}
+.folder
+{	
+		color: #AAA;
+		position:fixed;
+		padding: 5px;
+		font-weight: bold;
+		right: 50px;
+		top: 17px;
+		color: #111	
+}
+
+.closer
+{
+		color: #AAA;
+		position:fixed;
+		right:30px;
+		top: 22px;
+		font-weight: bold;
+		color: #111
+}
+ul
+{
+	width:300px;
+	list-style: none;
+}
+.selection-list
+{
+	padding-left: 10px;
+}
+.selection-list > *
+{
+	font-size: .75em;
+	padding-left: 2px;
+	display:inline;	
+}
+form
+{		
+		
+		background-color: #555;
+		padding-left:15px;
+		padding-top:10px;
+		margin-top:60px;
+		max-height:100%;
+		overflow:auto;	
+}
+.indent
+{
+		padding-left: 53px	
+}
+.category-chooser
+{
+	font-size: .9em;
+	font-weight:bold;
+		
+}
+#submit
+{
+	margin:25px;
+	position:relative;
+	bottom: 20px;
+	right: -75px;
+}
+input
+{
+	background-color: #DDD;
+}
+textarea
+{
+	background-color: #DDD;
+}
